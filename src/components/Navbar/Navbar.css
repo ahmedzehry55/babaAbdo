@@ -4,7 +4,6 @@
     justify-content: space-between;
     align-items: center;
     background: var(--color-black);
-    
     padding: 1rem 2rem;
 }
 
@@ -15,16 +14,16 @@
 }
 
 .app__navbar-logo img {
-    width: 150px;
+    width: 180px;
 }
 
 .app__navbar-links {
     flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content: flex;
     align-items: center;
-
     list-style: none;
+    margin-left: 10rem;
 }
 
 .app__navbar-links li {
@@ -34,28 +33,6 @@
 
 .app__navbar-links li:hover {
     color: var(--color-golden);
-}
-
-.app__navbar-login {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.app__navbar-login a {
-    margin: 0 1rem;
-    text-decoration: none;
-    transition: .5s ease;
-}
-
-.app__navbar-login a:hover {
-    border-bottom: 1px solid var(--color-golden);
-}
-
-.app__navbar-login div {
-    width: 1px;
-    height: 30px;
-    background: var(--color-grey);
 }
 
 .app__navbar-smallscreen {
@@ -70,7 +47,6 @@
     height: 100vh;
     background: var(--color-black);
     transition: .5s ease;
-
     flex-direction: column;
     z-index: 5;
 }
@@ -79,7 +55,6 @@
     font-size: 27px;
     color: var(--color-golden);
     cursor: pointer;
-
     position: absolute;
     top: 20px;
     right: 20px;
@@ -113,6 +88,10 @@
         display: none;
     }
 
+    .app__navbar-logo {
+        margin-left: 40%;
+    }
+
     .app__navbar-smallscreen {
         display: flex;
     }
@@ -123,8 +102,8 @@
         padding: 1rem;
     }
 
-    .app__navbar-login {
-        display: none;
+    .app__navbar-logo {
+        margin-left: 0;
     }
 
     .app__navbar-logo img {
