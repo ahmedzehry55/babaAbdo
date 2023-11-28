@@ -1,82 +1,153 @@
 import images from './images';
 
-const wines = [
+const koshry = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'كشري صغير ',
+    price: '8'    
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'كشري وسط',
+    price: '10'
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'كشري كبير',
+    price: '15'
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
-  },
-  {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
-  },
+    title: 'كشري جامبو',
+    price: '20'
+  }
 ];
 
-const cocktails = [
+const twagen = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'طاجن باللحمة',
+    price: '25'
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: 'طاجن بشاميل',
+    price: '25'
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'طاجن نجرسكو',
+    price: '25'
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: 'طاجن بالفراخ',
+    price: '25'
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'طاجن بالكبدة',
+    price: '25'
   },
+ 
 ];
 
-const awards = [
+const creeps = [
   {
-    imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'كريب بطاطس',
+    price: '15'
   },
   {
-    imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: '  كريب بطاطس بانيه',
+    price: '20'
   },
   {
-    imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'كريب بانيه',
+    price: '25'
   },
   {
-    imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'كريب كبده',
+    price: '25'
   },
-];
+  {
+    title: 'كريب سجق',
+    price: '25'
+  },
+  {
+    title: 'كريب كرسبي',
+    price: '30'
+  },
+  {
+    title: 'كريب كفته',
+    price: '30'
+  },
+  {
+    title: 'كريب زنجر',
+    price: '30'
+  },
+  {
+    title: 'كريب شيش',
+    price: '30'
+  },
+  {
+    title: 'كريب برجر',
+    price: '30'
+  },
+  {
+    title: 'كريب برجر فراخ',
+    price: '30'
+  },
+  {
+    title: 'كريب فاهيتا فراخ',
+    price: '30'
+  },
+  {
+    title: 'كريب شاورما فراخ',
+    price: '30'
+  },
+  {
+    title: 'كريب مشكل فراخ',
+    price: '35'
+  },
+  {
+    title: 'كريب  مشكل لحوم',
+    price: '35'
+  },
+  {
+    title: 'كريب سوبر كرنشي',
+    price: '35'
+  },
+  {
+    title: 'كريب  جمبري',
+    price: '50'
+  },
+  {
+    title: 'كريب بابا عبده',
+    price: '50'
+  }
+]
+const sory = [
+  {
+    title: ' بطاطس',
+    price: '15'
+  },
+  {
+    title: ' كبدة',
+    price: '20'
+  },
+  {
+    title: ' شاورما فراخ كبير',
+    price: '22'
+  },
+  {
+    title: ' شاورما فراخ وسط',
+    price: '25'
+  },
+  {
+    title: '  شاورما فراخ صغير',
+    price: '28'
+  },
+]
+const soryBox = [
+  {
+    title: ' وجبة عربي',
+    price: '40'
+  },
+  {
+    title: ' وجبة عربي',
+    price: '50'
+  },
+]
 
-export default { wines, cocktails, awards };
+export default { koshry, creeps, twagen,sory,soryBox};
